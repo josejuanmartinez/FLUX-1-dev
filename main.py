@@ -3,8 +3,6 @@ import torch
 import os, json
 
 from transformers import T5EncoderModel
-# We are not using image embeddings from CLIP in this implementation
-# from transformers import CLIPTextModel, CLIPTokenizer
 
 from diffusers import (
     BitsAndBytesConfig,
